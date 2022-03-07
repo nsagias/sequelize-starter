@@ -15,7 +15,7 @@ let sequelize = new Sequelize({
   password: config.password,
   port: config.port,
   database: config.database,
-  dialect: config.dielect
+  dialect: "mysql"
 })
 
 fs
