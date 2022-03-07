@@ -131,3 +131,6 @@ dist
 
 # notes
 notes.md
+
+# sequelize config
+config.json
