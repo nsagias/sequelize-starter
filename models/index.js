@@ -1,12 +1,12 @@
 'use strict';
-
+import config from "../config/config"
 const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 console.log(basename)
 const env = process.env.NODE_ENV || 'development';
-const config = require(__dirname + '../config/config.js');
+// const config = require(__dirname + '../config/config.js');
 const db = {};
 
 let sequelize = new Sequelize({
@@ -15,7 +15,7 @@ let sequelize = new Sequelize({
   password: config.password,
   port: config.port,
   database: config.database,
-  dialect: config.dialect
+  dialect: config.dielect
 })
 
 fs
