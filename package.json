@@ -18,5 +18,8 @@
   "homepage": "https://github.com/nsagias/sequelize-starter#readme",
   "dependencies": {
     "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
   }
 }
