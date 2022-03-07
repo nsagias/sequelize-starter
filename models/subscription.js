@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-  subscription.init({
+  Subscription.init({
     planId: DataTypes.INTEGER,
     coupon: DataTypes.STRING,
     cardNumber: DataTypes.STRING,
