@@ -18,6 +18,7 @@
   "homepage": "https://github.com/nsagias/sequelize-starter#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
+    "joi": "^17.6.0",
     "sequelize": "^6.17.0"
   }
 }
